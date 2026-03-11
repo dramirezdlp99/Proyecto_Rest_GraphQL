@@ -1,0 +1,30 @@
+name: proyecto_rest_graphql
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# ESTO ES LO QUE FALTA:
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Para REST
+  http: ^1.1.0
+  
+  # Para GraphQL
+  graphql_flutter: ^5.1.2
+  get: ^4.7.2
+  connectivity_plus: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
