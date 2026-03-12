@@ -4,7 +4,6 @@ publish_to: 'none'
 
 version: 1.0.0+1
 
-# ESTO ES LO QUE FALTA:
 environment:
   sdk: '>=3.1.0 <4.0.0'
 
@@ -16,10 +15,10 @@ dependencies:
   # Para REST
   http: ^1.1.0
   
-  # Para GraphQL
+  # Para GraphQL y Gestión de Estado
   graphql_flutter: ^5.1.2
-  get: ^4.7.2
-  connectivity_plus: ^3.0.6
+  get: ^4.6.6
+  connectivity_plus: ^6.0.0
 
 dev_dependencies:
   flutter_test:
